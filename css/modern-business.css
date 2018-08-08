@@ -9,13 +9,14 @@ body {
   padding-top: 54px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 792px) {
   body {
     padding-top: 90px;
   }
 }
 
 /* Navbar */
+
 .navbar-brand * {
   padding-right:  10px;
 }
@@ -133,10 +134,17 @@ table {
     text-decoration: none;
 }
 
+/* Latest news section */
+#latest-news h2 a {
+    text-decoration:  none;
+    color:  black;
+}
+
 /* Contact us from home page */
-#contact-from-home * * {
+#contact-from-home div * {
   display: inline-block;
 }
 #contact-btn {
-  align-content:   left;
+  width: 50%;
+  text-align: center;
 }
