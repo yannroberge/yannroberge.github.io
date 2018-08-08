@@ -73,19 +73,22 @@ header {
 
 /* Page content */
 section {
-  padding-top: 50px;
-  padding-bottom:  50px;
+  padding-top: 20px;
+  padding-bottom:  20px;
   margin-left: 0;
   margin-right: 0; 
 }
 
+#mission-statement,#industries h2 {
+  text-align: center;
+}
 /* Mission statement */
 #mission-statement {
  
 }
 
 /* Industries */
-#industries div div div h1 {
+#industries div div div h2 {
   padding-bottom: 25px;
 }
 .industry-bubble {
@@ -95,19 +98,26 @@ section {
     padding: 10px;
 }
 
-.industry-bubble a img {
+table {
+  table-layout: fixed;
+  width:100%;
+}
+
+.industry-bubble a i {
     border-width: 3px;
     border-radius: 50%;
 }
 
 .industry-bubble a {
   text-decoration: none;
-  color: black;
+  color: gray;
+  border-width: 3px;
 }
 
 .industry-bubble a:hover {
   text-decoration: none;
-  color: #47ABC8;
+  color: #379BB8;
+  border-width: 6px;
 }
 
 .industry-bubble a p {
