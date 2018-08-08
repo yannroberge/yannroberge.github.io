@@ -1,0 +1,117 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+/* General */
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/* Navbar */
+.navbar-brand * {
+  padding-right:  10px;
+}
+
+.navbar-brand {
+  display: inline-block;
+}
+
+#top-logo {
+  height: 70px;
+  display:  inline-block;
+}
+
+/* Unused */
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+/* Short text at the top */
+#presentation {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+header {
+  background-image: url("../images/pcb-background.jpg");
+  background-position: top;
+  /*background-size: 100%*/
+  /*background-image: linear-gradient(red, yellow, green);*/
+  /*background-color: #cccccc;*/
+}
+
+#presentation h1 {
+  font-size: 30pt;
+}
+
+#presentation-text {
+  background-color: #77DBF8;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  color: black;
+}
+
+/* Page content */
+section {
+  padding-top: 50px;
+  padding-bottom:  50px;
+  margin-left: 0;
+  margin-right: 0; 
+}
+
+/* Mission statement */
+#mission-statement {
+ 
+}
+
+/* Industries */
+#industries div div div h1 {
+  padding-bottom: 25px;
+}
+.industry-bubble {
+    /*position: center;*/
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.industry-bubble a img {
+    border-width: 3px;
+    border-radius: 50%;
+}
+
+.industry-bubble a {
+  text-decoration: none;
+  color: black;
+}
+
+.industry-bubble a:hover {
+  text-decoration: none;
+  color: #47ABC8;
+}
+
+.industry-bubble a p {
+    padding-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
