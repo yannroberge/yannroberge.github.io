@@ -11,7 +11,7 @@ body {
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    padding-top: 90px;
   }
 }
 
@@ -51,6 +51,7 @@ body {
 }
 
 header {
+ 
   background-image: url("../images/pcb-background.jpg");
   background-position: top;
   /*background-size: 100%*/
@@ -69,6 +70,12 @@ header {
   border-radius: 10px;
   display: inline-block;
   color: black;
+}
+
+#cpi-logo {
+  height: 70px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 /* Page content */
@@ -124,4 +131,12 @@ table {
     padding-top: 20px;
     font-size: 20px;
     text-decoration: none;
+}
+
+/* Contact us from home page */
+#contact-from-home * * {
+  display: inline-block;
+}
+#contact-btn {
+  align-content:   left;
 }
