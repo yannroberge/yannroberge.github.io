@@ -239,3 +239,29 @@ table {
   align-items:  left;
   align-self:   left;
 }
+
+/* Footer */
+#footer-table {
+  font-size: 10pt;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#footer-table tr td a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer-table tr td a:hover {
+  color: #278BA8;
+}
+
+#footer-table-head td {
+  /*font-weight: bold;*/
+  padding-bottom: 10px;
+  font-size: 12pt;
+}
+
+#copyright {
+  font-size: 8pt;
+}
