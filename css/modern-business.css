@@ -213,10 +213,14 @@ table {
   align-content: left;
 }
 
-.card-header {
-  height: 40px;
+#latest-news .card-header {
+  height: 50px;
   /*margin:0;*/
   padding-top:10px;
+}
+
+#location-info .card-header {
+  height: 40px;
 }
 
 #contact-field {
