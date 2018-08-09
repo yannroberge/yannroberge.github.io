@@ -83,6 +83,11 @@ body {
   display: inline-block;
 }
 
+.nav-item {
+  font-size: 18px;
+  color: white;
+}
+
 #top-logo {
   height: 70px;
   display:  inline-block;
